@@ -17,3 +17,4 @@ git branch "nome da nova branch" (Cria nova branch)
 git checkout "nome da branch" (sai da branch atual e vai para "nome da branch")
 git checkout -b lista (cria e altera da branch atual para a nova)
 É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra
+git merge "branch"
