@@ -25,3 +25,7 @@ Para dar um "Ctrl z" no git:
     1- Antes do "git add": git checkout -- "nome arquivo"
     2- Antes do "git commit": git restore --staged "nome arquivo"
     3- Depois do commit: pegar o hash gerado pelo commit e: git revert "hash"
+git stash (Guardar para depois a alteração feita)
+git stash apply
+git stash drop
+git stash pop (junção do apply e do drop, pega novamente a alteração que foi feita e joga no código principal)
