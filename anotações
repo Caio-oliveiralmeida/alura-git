@@ -14,6 +14,7 @@ git pull
 git remote rename "Nome que está" "Novo nome" (para manter a paridade de nomenclatura)
 git branch (verifica em que branch está)
 git branch "nome da nova branch" (Cria nova branch)
+git checkout ( "Atualizar os arquivos na working tree para ficarem na versão especificada. [...]")
 git checkout "nome da branch" (sai da branch atual e vai para "nome da branch")
 git checkout -b lista (cria e altera da branch atual para a nova)
 É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra
