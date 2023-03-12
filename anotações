@@ -33,5 +33,5 @@ git stash drop
 git stash pop (junção do apply e do drop, pega a última alteração adicionada à stash, e já remove ela de lá)
 git checkout hash ("Viaja no tempo", Serve para pegar um estado em que o código se encontrava em commits atrás)
 obs: para continuar uma linha de raciocinio naquele commit, é necessário criar uma branch nova, caso não, as alterações feitas naquele código serão apagadas ao voltar para a branch master)
-
+git diff (ver a diferença entre os commits: git diff "hash".."hash")
 
